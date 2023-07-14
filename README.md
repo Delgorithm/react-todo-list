@@ -39,8 +39,12 @@ The list of tasks is locally saved in the browser, which means your tasks will b
 
 ## Project Structure
 
-**src/App.js**: Root component of the application that manages the global state and renders the other components.
-**src/components/TodoForm.js**: Component for the form to add new tasks.
-**src/components/TodoItem.js**: Component representing an individual task in the list.
-**src/components/TodoList.js**: Component that displays the list of tasks and handles marking and deletion actions.
-**src/styles.css**: Style file for the application.
+- **src/App.js**: Root component of the application that manages the global state and renders the other components.
+
+- **src/components/TodoForm.js**: Component for the form to add new tasks.
+
+- **src/components/TodoItem.js**: Component representing an individual task in the list.
+
+- **src/components/TodoList.js**: Component that displays the list of tasks and handles marking and deletion actions.
+
+- **src/styles.css**: Style file for the application.
