@@ -47,4 +47,4 @@ The application will be accessible at http://localhost:3000 in your browser.
 
 - **src/components/TodoList.js**: Component that displays the list of tasks and handles marking and deletion actions.
 
-- **src/styles.css**: Style file for the application.
+- **src/index.css**: Style file for the application.
