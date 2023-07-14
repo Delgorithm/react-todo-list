@@ -32,10 +32,10 @@ The application will be accessible at http://localhost:3000 in your browser.
 
 ## Features
 
-Add a new task by entering the text in the input field and clicking the "Add" button.
-Mark a task as completed by clicking the checkbox next to the task.
-Delete a task from the list by clicking the delete button next to the task.
-The list of tasks is locally saved in the browser, which means your tasks will be retained even if you refresh the page.
+- Add a new task by entering the text in the input field and clicking the "Add" button.
+- Mark a task as completed by clicking the checkbox next to the task.
+- Delete a task from the list by clicking the delete button next to the task.
+- The list of tasks is locally saved in the browser, which means your tasks will be retained even if you refresh the page.
 
 ## Project Structure
 
