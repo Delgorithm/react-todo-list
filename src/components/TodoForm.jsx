@@ -49,7 +49,7 @@ function TodoForm() {
           My ToDo's :
           <input className="inputSubmit"type='text' value={inputValue} onChange={handleTaskChange} />
         </label>
-        <button className="buttonSubmit"type='submit'>Add</button>
+        <button className="buttonSubmit"type='submit'>+</button>
       </form>
       <div>
         {tasks.map((task, index) => (
