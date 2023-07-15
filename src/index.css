@@ -8,21 +8,46 @@ body{
     display: grid;
     place-content: center;
     min-height: 100svh;
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .formSubmit{
     padding: 1rem;
-    background-color: red;
+    background-color: #edbdc5;
+    border-radius: 1vmax;
     display: flex;
+    align-items: center;
 }
 .inputSubmit{
-    background-color: blue;
     margin: 1rem;
+    border: none;
+}
+.buttonSubmit{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
 }
 .inputTodo{
     display: flex;
+    align-items: center;
+    background-color: aqua;
+
 }
 .inputDisplay{
-    background-color: aquamarine;
     padding: 1rem;
     width: 100%;
+}
+.buttonDelete{
+    height: 26px;
+    width: 30px;
+    border-radius: 100%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
 }
