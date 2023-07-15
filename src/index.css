@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100svh;
+}
+.formSubmit{
+    padding: 1rem;
+    background-color: red;
+    display: flex;
+}
+.inputSubmit{
+    background-color: blue;
+    margin: 1rem;
+}
+.inputTodo{
+    display: flex;
+}
+.inputDisplay{
+    background-color: aquamarine;
+    padding: 1rem;
+    width: 100%;
+}
