@@ -47,7 +47,7 @@ function TodoForm() {
       <form className="formSubmit"onSubmit={handleSubmit}>
         <label>
           My ToDo's :
-          <input className="inputSubmit"type='text' value={inputValue} onChange={handleTaskChange} />
+          <input className="inputSubmit"type='text' placeholder='Read 10 pages' value={inputValue} onChange={handleTaskChange} />
         </label>
         <button className="buttonSubmit"type='submit'>+</button>
       </form>
@@ -60,7 +60,6 @@ function TodoForm() {
         ))}
       </div>
     </>
-
   );
 }
 
