@@ -28,7 +28,7 @@ npm install
 npm start
 ```
 
-The application will be accessible at http://localhost:3000 in your browser.
+The application will be accessible at http://localhost:5173/ in your browser.
 
 ## Features
 
